@@ -3,7 +3,7 @@
 [![PyPI](https://img.shields.io/pypi/v/longhaul.svg)](https://pypi.org/project/longhaul)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
-[![CI](https://github.com/YOUR_USERNAME/longhaul/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/longhaul/actions)
+[![CI](https://github.com/Zhiyilang/longhaul/actions/workflows/ci.yml/badge.svg)](https://github.com/Zhiyilang/longhaul/actions)
 
 **Self-healing daemons for your bots, scrapers, and AI agents — run them 24/7 without babysitting.**
 
