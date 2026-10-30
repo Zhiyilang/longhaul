@@ -1,0 +1,18 @@
+{
+  "daemons": [
+    {
+      "name": "price-bot",
+      "target": "mybots.price_watch:run",
+      "max_restarts": 0,
+      "backoff": 2,
+      "health": 60
+    },
+    {
+      "name": "sync-agent",
+      "target": "mybots.sync:run",
+      "max_restarts": 10,
+      "backoff": 5,
+      "health": 120
+    }
+  ]
+}
