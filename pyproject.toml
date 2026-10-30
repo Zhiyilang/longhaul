@@ -9,7 +9,7 @@ description = "Self-healing daemons for your bots, scrapers, and AI agents — r
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "YOUR_NAME" }]
+authors = [{ name = "Zhiyilang" }]
 keywords = ["daemon", "automation", "supervisor", "cron", "ai-agent", "self-healing", "reliability", "bot"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -21,9 +21,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/longhaul"
-Repository = "https://github.com/YOUR_USERNAME/longhaul"
-Issues = "https://github.com/YOUR_USERNAME/longhaul/issues"
+Homepage = "https://github.com/Zhiyilang/longhaul"
+Repository = "https://github.com/Zhiyilang/longhaul"
+Issues = "https://github.com/Zhiyilang/longhaul/issues"
 
 [project.scripts]
 longhaul = "longhaul.cli:main"
