@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "longhaul"
+version = "0.1.0"
+description = "Self-healing daemons for your bots, scrapers, and AI agents — run them 24/7 without babysitting."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "YOUR_NAME" }]
+keywords = ["daemon", "automation", "supervisor", "cron", "ai-agent", "self-healing", "reliability", "bot"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Monitoring",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/longhaul"
+Repository = "https://github.com/YOUR_USERNAME/longhaul"
+Issues = "https://github.com/YOUR_USERNAME/longhaul/issues"
+
+[project.scripts]
+longhaul = "longhaul.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["longhaul*"]
